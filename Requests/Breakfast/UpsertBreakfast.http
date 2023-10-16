@@ -1,0 +1,16 @@
+@id = 01b6bb09-7afa-47bd-afb4-d702cd762e3a
+
+PUT http://localhost:5059/breakfasts/{{id}}
+Content-Type: application/json
+
+{
+    "name": "Chicken Tikka Masala",
+    "description": "Vegan everything! Join us for a healthy breakfast..",
+    "savory": [
+        "Broth",
+        "Garlic Paste"
+    ],
+    "Sweet": [
+        "Cocunut Milk"
+    ]
+}

@@ -1,0 +1,25 @@
+
+
+
+POST http://localhost:5059/breakfasts
+Content-Type: application/json
+
+{
+    "name": "Chicken Tikka Masala",
+    "description": "Vegan everything! Join us for a healthy breakfast..",
+    "startDateTime": "2022-04-08T08:00:00",
+    "endDateTime": "2022-04-08T11:00:00",
+    "savory": [
+        "Oatmeal",
+        "Avocado Toast",
+        "Omelette",
+        "Salad"
+    ],
+    "Sweet": [
+        "Cookie"
+    ]
+}
+
+###
+
+GET http://localhost:5059/Breakfasts/391c4618-d16c-4148-98eb-382b0f17e290
